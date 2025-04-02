@@ -1,0 +1,42 @@
+#██╗░░░██╗░█████╗░███╗░░██╗██╗░██████╗██╗░░██╗
+#██║░░░██║██╔══██╗████╗░██║██║██╔════╝██║░░██║
+#╚██╗░██╔╝███████║██╔██╗██║██║╚█████╗░███████║
+#░╚████╔╝░██╔══██║██║╚████║██║░╚═══██╗██╔══██║
+#░░╚██╔╝░░██║░░██║██║░╚███║██║██████╔╝██║░░██║
+#░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝╚═════╝░╚═╝░░╚═╝
+#
+# Developer: @megajavadeveloper
+# Studio: Vanish Studio
+# Links: t.me/vanishstudio
+#
+spirits:
+  strength:
+    particle: FLAME # Партиклы
+    count: 3 # Количество частиц
+    permission: 'vspirits.strength' # Права для активации
+    display_name: '&cДух Силы' # Название духа
+    headbase64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY0ZGMzYzM3NTNiZjViMGI3ZjA4MWNkYjQ5YjgzZDM3NDI4YTEyZTQxODdmNjM0NmRlYzA2ZmFjNTRjZSJ9fX0='
+    effect:
+      type: INCREASE_DAMAGE # Эффект
+      duration: 200
+      amplifier: 0 # Уровень эффекта ( 0, это 1 уровень )
+  speed:
+    particle: WATER_SPLASH
+    count: 2
+    permission: 'vspirits.speed'
+    display_name: '&9Дух Скорости'
+    headbase64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkMWM0NjM3NTZjYTMzYzlkNmNlYmQyNDIzNzk1ZDhhNGQ4N2U3MTk0YjUwMzU3OWU4ZTExMjI1MTY2ZmUifX19'
+    effect:
+      type: SPEED
+      duration: 200
+      amplifier: 0
+  regeneration:
+    particle: HEART
+    count: 2
+    permission: 'vspirits.speed'
+    display_name: '&dДух Регенерации'
+    headbase64: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiMGFmODNkMGM3MjhhZWVjYTQ3MGYwOGExZDc1ZjQxY2VlMjUzYTM1NzNiYTQxNTdjYTI0MzNlNmMzNiJ9fX0='
+    effect:
+      type: REGENERATION
+      duration: 200
+      amplifier: 0
